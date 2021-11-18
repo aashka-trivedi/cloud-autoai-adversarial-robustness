@@ -8,4 +8,4 @@ We aim to train Auto-AI models from the two cloud platforms to perform image cla
 
 ## Implementation Details - IBM Cloud
 
-IBM Cloud's Auto-AI takes in CSV files as inputs, not images. We thus use the MNIST training and test data provided by [Kaggle] (https://www.kaggle.com/oddrationale/mnist-in-csv) in csv format.
+IBM Cloud's Auto-AI takes in CSV files as inputs, not images. We thus use the MNIST training and test data provided by [Kaggle](https://www.kaggle.com/oddrationale/mnist-in-csv) in csv format.
