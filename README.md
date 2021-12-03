@@ -55,19 +55,24 @@ To test a pipeline to defensively distil the cloud AutoAI models, we distil them
 cloud-auto-ai-adversarial-robustness
  ┣ code
  ┃ ┣ gcp_automl
+ ┃ ┃ ┣ .DS_Store
  ┃ ┃ ┗ gcp_adversarial.ipynb
  ┃ ┣ ibmcloud_autoai
  ┃ ┃ ┣ AutoAIAdversarialRobustness.ipynb
  ┃ ┃ ┣ MNIST-Experiment.ipynb
  ┃ ┃ ┗ MNIST-P12.ipynb
- ┃ ┗ AdversarialExampleGeneration.ipynb
+ ┃ ┣ .DS_Store
+ ┃ ┣ AdversarialExampleGeneration.ipynb
+ ┃ ┗ DefensiveDistillation.ipynb
  ┣ data_compressed
  ┃ ┣ distillation
+ ┃ ┃ ┣ .DS_Store
  ┃ ┃ ┣ gcp_distil_test.csv.zip
  ┃ ┃ ┣ gcp_distil_train.csv.zip
  ┃ ┃ ┣ scoring_test.csv.zip
  ┃ ┃ ┗ scoring_train.csv.zip
  ┃ ┣ gcp_scored
+ ┃ ┃ ┣ .DS_Store
  ┃ ┃ ┣ README.md
  ┃ ┃ ┣ adv_15_scored_pred.csv.zip
  ┃ ┃ ┣ adv_30_scored_pred.csv.zip
@@ -76,8 +81,11 @@ cloud-auto-ai-adversarial-robustness
  ┃ ┣ ibm_predictions
  ┃ ┃ ┣ adv15_predictions.csv.zip
  ┃ ┃ ┗ adv30_predictions.csv.zip
+ ┃ ┣ adv_examples_10.csv.zip
  ┃ ┣ adv_examples_15.csv.zip
  ┃ ┣ adv_examples_15_gcp.csv.zip
+ ┃ ┣ adv_examples_20.csv.zip
+ ┃ ┣ adv_examples_25.csv.zip
  ┃ ┣ adv_examples_30.csv.zip
  ┃ ┣ adv_examples_30_gcp.csv.zip
  ┃ ┣ mnist_test_pytorch.csv.zip
@@ -86,10 +94,11 @@ cloud-auto-ai-adversarial-robustness
  ┃ ┗ lenet_mnist_model.pth
  ┣ reports
  ┃ ┣ figs
- ┃ ┃ ┗ adv_ex.png
+ ┃ ┃ ┣ acc_ep.png
+ ┃ ┃ ┣ adv_ex.png
+ ┃ ┃ ┣ adv_robustness.png
+ ┃ ┃ ┗ distillation.png
  ┃ ┗ ProjectProposal.pdf
- ┣ .gitignore
- ┗ README.md
 ```
 
 ## Useful Links
